@@ -58,6 +58,9 @@ def run(cmd: list[str]) -> int:
     except subprocess.CalledProcessError as e:
         rprint(f"[bold red]Error: {e}[/bold red]")
         errcount = 1
+    except OSError as e:
+        rprint(f"[bold red]Command failed to start: {e}[/bold red]")
+        errcount = 1
 
     return errcount
 
