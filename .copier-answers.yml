@@ -1,0 +1,11 @@
+# Changes here will be overwritten by Copier. Do not edit manually.
+_commit: v0.2.26
+_src_path: gh:jlevy/simple-modern-uv
+package_author_email: bossjones@theblacktonystark.com
+package_author_name: Malcolm Jones
+package_description: 'Homelab automation toolkit: Ansible, OpenTofu/Terraform (Proxmox,
+    macOS via tart/packer/UTM), and validation tooling for agentic infrastructure
+    management.'
+package_github_org: bossjones
+package_module: homelab_setup
+package_name: homelab-setup
